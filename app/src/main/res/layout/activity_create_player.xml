@@ -25,7 +25,7 @@
             android:src="@drawable/icon_image" />
 
         <EditText
-            android:id="@+id/name_input"
+            android:id="@+id/create_player_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -33,11 +33,11 @@
             android:imeOptions="actionDone"
             android:inputType="text"
             android:maxLines="1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textColorHint="@color/teal_700" />
 
         <EditText
-            android:id="@+id/firstname_input"
+            android:id="@+id/create_player_firstname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -45,11 +45,11 @@
             android:imeOptions="actionDone"
             android:inputType="text"
             android:maxLines="1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textColorHint="@color/teal_700" />
 
         <EditText
-            android:id="@+id/age_input"
+            android:id="@+id/create_player_age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -57,7 +57,7 @@
             android:imeOptions="actionDone"
             android:inputType="number"
             android:maxLines="1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textColorHint="@color/teal_700" />
 
         <LinearLayout
@@ -67,7 +67,7 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/location_input"
+                android:id="@+id/create_player_location"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -75,11 +75,11 @@
                 android:imeOptions="actionDone"
                 android:inputType="text"
                 android:maxLines="1"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textColorHint="@color/teal_700" />
 
             <ImageView
-                android:id="@+id/create_player_location_btn"
+                android:id="@+id/create_player_location_bt"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:layout_marginTop="15dp"
@@ -100,7 +100,7 @@
             android:text="@string/players" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/validate"
+            android:id="@+id/create_player_validate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/validate" />

@@ -2,9 +2,10 @@
     <string name="app_name">Multi-Game</string>
     <string name="create_player_title">Bienvenue !</string>
     <string name="enter_name">Entrez votre nom</string>
-    <string name="enter_firstname">Entrez votre nom</string>
+    <string name="enter_firstname">Entrez votre prénom</string>
     <string name="enter_age">Entrez votre age</string>
     <string name="enter_location">Entrez votre localisation</string>
     <string name="players">Joueurs</string>
     <string name="validate">Valider</string>
+    <string name="location_lat_lng">Lat : %.2f Lon : %.2f</string>
 </resources>
